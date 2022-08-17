@@ -36,7 +36,7 @@ export const NFTPlayer = () => {
   };
   return (
     <AudioPlayer
-      className="dark:bg-[#202020] backdrop-blur-[10px] dark:text-stone-100 text-sm text-stone-800 border-t border-t-stone-300 border-l-0 border-b-0 border-r-0   dark:md:border dark:md:border-stone-400 md:border md:border-stone-300 "
+      className="dark:bg-[#202020] bg-[#f1f1f1] backdrop-blur-[40px] dark:text-stone-100 text-sm text-stone-800 border-t border-t-stone-300 border-l-0 border-b-0 border-r-0   dark:md:border dark:md:border-stone-400 md:border md:border-stone-300 "
       src={
         currentIndex !== null && currentIndex >= 0
           ? playlist[currentIndex].url
