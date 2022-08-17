@@ -29,8 +29,12 @@ a {
   color: rgb(255, 255, 255);
 }
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+.rhap_container {
+  background-color: transparent !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.rhap_play-pause-button .rhap_progress-indicator {
+  background-color: blue !important;
+  color: blue;
 }
