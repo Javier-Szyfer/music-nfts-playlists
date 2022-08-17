@@ -44,8 +44,8 @@ export default function Playlist({ nft, index }: props) {
             </div>
           </div>
           <div className="col-span-12 md:col-span-2"></div>
-          <div className="col-span-12 md:col-span-7 flex flex-col justify-between h-full mt-4 sm:mt-0  ">
-            <div className="flex flex-col  h-full gap-[4px] sm:gap-1">
+          <div className="col-span-12 md:col-span-7 flex flex-col justify-between mt-4 sm:mt-0">
+            <div className="flex flex-col h-full gap-[4px] sm:gap-1">
               <span>
                 {nft?.artist} - {nft?.title}
               </span>
@@ -69,7 +69,7 @@ export default function Playlist({ nft, index }: props) {
         </div>
       </div>
       <>
-        <Transition appear show={isOpen} as={Fragment}>
+        <Transition appear show={isOpen}>
           <Dialog
             as="div"
             className="fixed inset-0 z-10 overflow-y-auto"
@@ -77,7 +77,6 @@ export default function Playlist({ nft, index }: props) {
           >
             <div className="min-h-screen px-4 text-center">
               <Transition.Child
-                as={Fragment}
                 enter="ease-out duration-300"
                 enterFrom="opacity-0"
                 enterTo="opacity-100"
