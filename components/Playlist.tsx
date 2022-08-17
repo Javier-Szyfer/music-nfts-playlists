@@ -25,7 +25,7 @@ export default function Playlist({ nft, index }: props) {
   }
 
   return (
-    <div className="w-full max-w-4xl mx-auto text-[#444444] dark:text-[#f1f1f1] border border-stone-400 border-b-0 last:border-b  ">
+    <div className="w-full max-w-4xl mx-auto text-[#444444] dark:text-[#f1f1f1] border-l-0 border-r-0 sm:border-l sm:border-r border border-stone-400 border-b-0 last:border-b  ">
       <div className="relative flex flex-col justify-between  items-center w-full px-4 py-4  text-sm  text-left ">
         <div className="grid grid-cols-12 w-full items-start">
           <div className="col-span-12 md:col-span-2">
