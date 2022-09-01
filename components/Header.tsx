@@ -59,23 +59,7 @@ export default function Header() {
               unrequested information. All this, before touching a wire or
               having a thoughtful moment. <br />
               <br />
-              Created by{" "}
-              <Link href="https://www.javier.onl" passHref>
-                <a target="_blank" rel="noopener noreferrer">
-                  <span className="text-[#1500FF] dark:text-[#84858C] hover:underline cursor-pointer">
-                    javvvs.eth
-                  </span>
-                </a>
-              </Link>{" "}
-              and{" "}
-              <Link href="https://www.tranqui.xyz" passHref>
-                <a target="_blank" rel="noopener noreferrer">
-                  <span className="text-[#1500FF] dark:text-[#84858C] hover:underline cursor-pointer">
-                    tranqui.eth
-                  </span>
-                </a>
-              </Link>
-              , NftPlaylists is - This is the project tagline
+              NftPlaylists is - This is the project tagline
               <span
                 onClick={handleInfo}
                 className="text-[#1500FF] tracking-tighter underline dark:text-[#84858C] whitespace-nowrap ml-2 cursor-pointer"
